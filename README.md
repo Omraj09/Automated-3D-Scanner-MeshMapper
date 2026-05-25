@@ -11,12 +11,6 @@ True-to-Life Scaling Calibration: Out-of-the-box post-processing scaling workflo
 
 🛠️ System Architecture & Hardware Specs
 The system bridges low-level physical actuation with high-level software workflows via a centralized processing hub.
-
-[ Web UI / Cloud Backend ] <---> [ Raspberry Pi 4B ] <---> [ Custom Pi Shield PCB ]
-                                                                   |
-                                    +------------------------------+------------------------------+
-                                    |                              |                              |
-                        [ NEMA 17 Turntable Motor ]      [ NEMA 17 Rotor Motor ]      [ Synchronized LED Ring ]
                         
 Hardware Component Specifications
 Component	Specification / Model	Role in System
