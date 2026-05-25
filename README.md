@@ -12,6 +12,12 @@ True-to-Life Scaling Calibration: Out-of-the-box post-processing scaling workflo
 🛠️ System Architecture & Hardware Specs
 The system bridges low-level physical actuation with high-level software workflows via a centralized processing hub.
 
+[ Web UI / Cloud Backend ] <---> [ Raspberry Pi 4B ] <---> [ Custom Pi Shield PCB ]
+                                                                   |
+                                    +------------------------------+------------------------------+
+                                    |                              |                              |
+                        [ NEMA 17 Turntable Motor ]      [ NEMA 17 Rotor Motor ]      [ Synchronized LED Ring ]
+                        
 Hardware Component Specifications
 Component	Specification / Model	Role in System
 Central Controller	Raspberry Pi 4 Model B (Quad-core Cortex-A72 @ 1.8GHz)	Main processing unit; orchestrates motor scripts, camera triggers, and hosts the web interface backend.
