@@ -51,18 +51,6 @@ The system software workflow relies on an unmanaged backend runtime script commu
 
 ---
 
-## 📂 Repository Structure
-
-```text
-├── hardware/               # Mechanical designs and 3D-printable CAD component structural files
-│   ├── turntable/          # Rotational platform design models
-│   ├── rotor/              # Precision camera arm elevation assemblies
-│   └── assembly/           # Comprehensive 3D structural model files
-├── electronics/            # Fritzing circuit schematics and production-ready Gerber PCB layouts
-├── backend/                # Python scripts executing low-level GPIO register adjustments and sensor pipelines
-├── frontend/               # Full-stack dashboard web application codebase assets
-└── README.md               # Project system documentation
-
 👥 Contributors & Credits
 Developed in partial fulfillment of the requirements for the award of the degree of Bachelor of Engineering in Mechatronics Engineering under Visvesvaraya Technological University (Jnanasangama, Belagavi) at Acharya Institute of Technology.
 Project Development Team: Omraj Sawant, Kedar Topajiche, Anurag Kumar
